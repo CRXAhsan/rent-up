@@ -1,0 +1,49 @@
+.awards {
+  background-color: #122947;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0; /* Added padding for spacing */
+}
+
+.awards .heading {
+  display: flex;
+  flex-direction: column; /* Changed to column to have h1 above p */
+  align-items: center; /* Centering the content */
+  margin-bottom: 30px; /* Added margin to separate from the content below */
+}
+
+.awards .heading p {
+  color: #27ae60;
+  margin-bottom: 10px; /* Added margin for spacing */
+  font-size: 18px; /* Adjusted for readability */
+}
+
+.awards .heading h1 {
+  color: #fff;
+  font-size: 36px; /* Increased font size for better visibility */
+  font-weight: 400;
+  margin-bottom: 5px; /* Space between h1 and p */
+}
+
+.awards .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: 50px auto 20px auto; /* Adjusted spacing: 50px on top and 20px bottom */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%; /* A perfect circle for the icon */
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.awards h1 {
+  font-size: 50px;
+  font-weight: 600; /* Added weight for emphasis */
+  margin-top: 10px; /* Space above the number */
+}
+
+.awards p {
+  color: #b0b0b0; /* A lighter grey for better contrast */
+  font-size: 16px; /* Adjusted size for readability */
+  margin-top: 10px; /* Space between the text and the number */
+}
