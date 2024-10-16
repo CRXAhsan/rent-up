@@ -21,13 +21,6 @@ function App() {
       <Team />
       <Price />
       <Footer />
-
-      {/* <Featured />
-      <Recent />
-      <Awards />
-      <Location />
-      <Team />
-      <Price /> */}
     </>
   );
 }
